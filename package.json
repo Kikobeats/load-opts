@@ -1,0 +1,39 @@
+{
+  "name": "load-opts",
+  "description": "Load opts config file.",
+  "homepage": "https://github.com/Kikobeats/load-opts",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": "Kikobeats/load-opts",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/load-opts/issues"
+  },
+  "keywords": ["load", "opts"],
+  "dependencies": {
+    "exists-file": "~1.0.0",
+    "is-directory": "~0.3.0",
+    "trim-newlines": "~1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "git-dirty": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "standard": "latest"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "standard lib",
+    "pretest": "npm run lint",
+    "test": "mocha"
+  },
+  "license": "MIT"
+}
