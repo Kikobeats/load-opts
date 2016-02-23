@@ -2,18 +2,24 @@
   "name": "load-opts",
   "description": "Load opts config file.",
   "homepage": "https://github.com/Kikobeats/load-opts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./index.js",
   "author": {
-    "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
     "url": "https://github.com/Kikobeats"
   },
-  "repository": "Kikobeats/load-opts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/load-opts.git"
+  },
   "bugs": {
     "url": "https://github.com/Kikobeats/load-opts/issues"
   },
-  "keywords": ["load", "opts"],
+  "keywords": [
+    "load",
+    "opts"
+  ],
   "dependencies": {
     "exists-file": "~1.0.0",
     "is-directory": "~0.3.0",
