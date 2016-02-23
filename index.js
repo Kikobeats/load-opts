@@ -7,8 +7,8 @@ var trimNewlines = require('trim-newlines')
 var isDirectory = require('is-directory').sync
 
 module.exports = function (filename) {
-  return function readConfig () {
-    var yargs = process.argv.slice(2)
+  return function readConfig (yargs) {
+    yargs = yargs || process.argv.slice(2)
     if (yargs.length !== 1) return yargs
 
     var filepath = path.resolve(yargs[0])
