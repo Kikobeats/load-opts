@@ -29,4 +29,9 @@ describe('load-opts', function () {
     var filepath = path.join(__dirname, 'fixture')
     loadOpts([filepath]).should.be.eql(['-w 1', filepath])
   })
+
+  it('passing file and cli options, choose cli options', function () {
+    var filepath = path.join(__dirname, 'fixture')
+    loadOpts(['-w 2', filepath]).should.be.eql(['-w 2', filepath])
+  });
 })
