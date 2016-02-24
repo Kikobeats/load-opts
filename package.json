@@ -2,7 +2,7 @@
   "name": "load-opts",
   "description": "Load opts config file.",
   "homepage": "https://github.com/Kikobeats/load-opts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
