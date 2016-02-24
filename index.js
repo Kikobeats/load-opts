@@ -6,15 +6,15 @@ var existFile = require('exists-file')
 var trimNewlines = require('trim-newlines')
 var isDirectory = require('is-directory').sync
 
-function getFile(namespace, base, env) {
+function getFile (namespace, base, env) {
   env = env ? '.' + env : ''
   return path.join(base, (namespace + env + '.opts'))
 }
 
-function fileDetected(namespace, filepath, env) {
+function fileDetected (namespace, filepath, env) {
   var envFile = getFile(namespace, filepath, env)
   if (existFile(envFile)) return envFile
-  return null;
+  return null
 }
 
 module.exports = function (namespace) {
