@@ -34,4 +34,10 @@ describe('load-opts', function () {
     var filepath = path.join(__dirname, 'fixture')
     loadOpts(['-w 2', filepath]).should.be.eql(['-w 2', filepath])
   });
+
+  it('load opts files based on env', function () {
+    var filepath = path.join(__dirname, 'fixture')
+    process.env.NODE_ENV = 'testing'
+    loadOpts([filepath]).should.be.eql(['-w 3', filepath])
+  });
 })
