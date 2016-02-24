@@ -14,9 +14,7 @@ module.exports = function (filename) {
     var filepath = path.resolve(yargs[0])
     if (!isDirectory(filepath)) filepath = path.join(filepath, '..')
 
-    filename = filename + '.opts'
-    filepath = path.join(filepath, filename)
-
+    filepath = path.join(filepath, (filename + '.opts'))
     if (!existFile(filepath)) return yargs
 
     var config = fs.readFileSync(filepath, 'utf8')
