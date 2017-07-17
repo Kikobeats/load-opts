@@ -21,9 +21,9 @@
     "opts"
   ],
   "dependencies": {
-    "exists-file": "~1.0.0",
+    "exists-file": "~3.0.1",
     "is-directory": "~0.3.0",
-    "trim-newlines": "~1.0.0"
+    "trim-newlines": "~2.0.0"
   },
   "devDependencies": {
     "coffee-script": "latest",
