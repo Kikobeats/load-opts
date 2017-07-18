@@ -37,7 +37,7 @@
   },
   "scripts": {
     "clean": "rm -rf node_modules",
-    "lint": "standard lib",
+    "lint": "standard index.js test",
     "pretest": "npm run lint",
     "test": "mocha"
   },
