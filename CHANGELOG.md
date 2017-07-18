@@ -1,3 +1,15 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2017-07-18)
+
+* fix style ([26f5ea2](https://github.com/kikobeats/load-opts/commit/26f5ea2))
+* Tweaks ([9bb8cae](https://github.com/kikobeats/load-opts/commit/9bb8cae))
+* Update README.md ([81d0a09](https://github.com/kikobeats/load-opts/commit/81d0a09))
+* Update travis builds ([8748086](https://github.com/kikobeats/load-opts/commit/8748086))
+* docs(readme): add Greenkeeper badge ([58fa90c](https://github.com/kikobeats/load-opts/commit/58fa90c))
+* chore(package): update dependencies ([f1ea343](https://github.com/kikobeats/load-opts/commit/f1ea343))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2016-02-24)
 

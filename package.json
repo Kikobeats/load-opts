@@ -2,11 +2,11 @@
   "name": "load-opts",
   "description": "Load opts config file.",
   "homepage": "https://github.com/Kikobeats/load-opts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "./index.js",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {
