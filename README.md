@@ -24,8 +24,8 @@ loadOpts() // => [...]
 
 ## How Works
 
-1) If you provide CLI params, then the methods returns it.
-2) If you don't provide CLI but a opts file exists in the path of the file, returns file params.
+1. If you provide CLI params, then the methods returns it.
+2. If you don't provide CLI but a opts file exists in the path of the file, returns file params.
 
 ## License
 
