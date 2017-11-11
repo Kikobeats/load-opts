@@ -1,5 +1,7 @@
 # load-opts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/load-opts.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/load-opts.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/load-opts/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/load-opts)
 [![Dependency status](http://img.shields.io/david/Kikobeats/load-opts.svg?style=flat-square)](https://david-dm.org/Kikobeats/load-opts)
