@@ -23,7 +23,7 @@
   "dependencies": {
     "exists-file": "~3.0.1",
     "is-directory": "~0.3.0",
-    "trim-newlines": "~3.0.0"
+    "trim-newlines": "~4.0.0"
   },
   "devDependencies": {
     "coffee-script": "latest",
